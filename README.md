@@ -2,7 +2,7 @@
 
 A simple yet powerful boilerplate for developing modern REST APIs with Node.js & Express 😎
 
-![nodejs + docker logo](asset.png)
+![nodejs + docker logo](.github/asset.png)
 
 It includes:
 
