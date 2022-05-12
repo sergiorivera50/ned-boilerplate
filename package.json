@@ -1,0 +1,26 @@
+{
+  "name": "ned-boilerplate",
+  "version": "0.0.1",
+  "description": "The definitive boilerplate for creating dockerized REST APIs with Express and Node.js",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sergiorivera50/ned-boilerplate.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Docker",
+    "REST",
+    "API"
+  ],
+  "author": "Sergio Rivera",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sergiorivera50/ned-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sergiorivera50/ned-boilerplate#readme"
+}
