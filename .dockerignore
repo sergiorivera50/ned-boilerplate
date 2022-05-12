@@ -1,0 +1,11 @@
+.git
+.env
+.DS_Store
+README.md
+Dockerfile
+
+*.sh
+!docker-entrypoint.sh
+
+.github/
+node_modules/
