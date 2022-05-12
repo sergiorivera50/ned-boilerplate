@@ -9,15 +9,11 @@ It includes:
 - **Unit tests**: with Jest and Supertest.
 - **Dockerfile**: production grade Docker image for deploying your API.
 
-**Development process**
-
 In order to start developing your REST API simply run:
 
 ```bash
 npm run dev
 ```
-
-**Deployment strategy**
 
 To build (and push) the production image of your final product use:
 
