@@ -1,2 +1,3 @@
 # N.E.D. boilerplate
-Node.js + Express + Docker 🔥
+
+A simple yet powerful boilerplate for developing modern REST APIs with Node.js & Express 😎
