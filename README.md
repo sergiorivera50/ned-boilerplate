@@ -7,7 +7,7 @@ It includes:
 - **TypeScript**: supported by default (as it should be).
 - **Express API**: routes, middlewares, services and configs.
 - **Unit tests**: with Jest and Supertest.
-- **Dockerfile**: production grade Docker image for deploying your API.
+- **Dockerfile**: production grade Docker image + PM2 for deploying your API.
 
 In order to start developing your REST API simply run:
 
