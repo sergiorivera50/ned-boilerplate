@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/sergiorivera50/ned-boilerplate/issues"
   },
-  "homepage": "https://github.com/sergiorivera50/ned-boilerplate#readme"
+  "homepage": "https://github.com/sergiorivera50/ned-boilerplate#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
 }
