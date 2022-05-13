@@ -4,7 +4,7 @@ A simple yet powerful boilerplate for developing modern REST APIs with Node.js &
 
 ![nodejs + docker logo](.github/asset.png)
 
-It includes:
+Features:
 
 - **TypeScript**: supported by default (as it should be).
 - **Express API**: routes, middlewares, services and configs.
