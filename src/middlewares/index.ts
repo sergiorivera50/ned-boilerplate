@@ -1,13 +1,8 @@
 import { Router } from 'express'
-import { hello } from './hello.middleware'
+import { auth } from './auth.middleware'
 
 const middlewares = Router()
 
-/* 
-  Add your custom middlewares here:
-  middlewares.use(myMiddleware)
-*/
-
-middlewares.use(hello)
+// middlewares.use(auth)  // edit auth.config.ts & uncomment this line
 
 export default middlewares
