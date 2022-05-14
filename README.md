@@ -8,13 +8,13 @@ Features:
 
 - **TypeScript**: supported by default (as it should be).
 - **Express API**: routes, middlewares, services and configs.
+- **Docker**: dockerized development environment + production grade image.
 - **Unit tests**: with Jest and Supertest for ease of use.
-- **Dockerfile**: production grade Docker image + PM2 for deploying your API.
 
 In order to start developing your REST API simply run:
 
 ```bash
-npm run dev
+source start_dev.sh
 ```
 
 To build (and push) the production Docker image use:
