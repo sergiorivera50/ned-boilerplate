@@ -8,9 +8,9 @@ Features:
 
 - **TypeScript**: supported by default (as it should be).
 - **Express API**: routes, middlewares, services and configs.
-- **Docker**: dockerized development environment + production grade image.
-- **OAUTH 2.0**: boilerplate config + middleware for enabling authenticated requests.
 - **Unit tests**: with Jest and Supertest for ease of use.
+- **OAUTH 2.0**: boilerplate config + middleware for authenticated requests.
+- **Docker**: dockerized development environment + production grade image.
 
 In order to start developing your REST API simply run:
 
