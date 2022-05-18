@@ -16,7 +16,7 @@ Features:
 In order to start developing your REST API simply run:
 
 ```bash
-source start_dev.sh
+npm run docker:dev
 ```
 
 To build (and push) the production Docker image use:
