@@ -1,0 +1,8 @@
+version: '3'
+services:
+  express:
+    container_name: express-test
+    build:
+      target: builder
+    env_file: .env
+    command: npm test
