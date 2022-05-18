@@ -24,7 +24,7 @@ WORKDIR /app
 COPY package*.json ./
 
 # Install all dependencies
-RUN npm i
+RUN npm ci
 
 # Copy the rest of the code
 COPY . .
