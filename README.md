@@ -1,6 +1,6 @@
 # N.E.D. boilerplate
 
-A simple yet powerful boilerplate for developing modern REST APIs with Node.js & Express 😎
+A lightweight yet powerful boilerplate for developing modern RESTful APIs with Node.js & Express 😎
 
 ![nodejs + docker logo](.github/asset.png)
 
