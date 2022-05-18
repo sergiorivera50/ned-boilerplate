@@ -11,6 +11,7 @@ Features:
 - **Unit tests**: with Jest and Supertest for ease of use.
 - **OAUTH 2.0**: boilerplate config + middleware for authenticated requests.
 - **Docker**: dockerized development environment + production grade image.
+- **ESLint**: with recommended rules for enforcing a cohesive coding style.
 
 In order to start developing your REST API simply run:
 
