@@ -11,9 +11,11 @@ describe('GET /', () => {
   })
 
   it('should return greeting line', async () => {
-    const response = await request(app)
+    await request(app)
       .get('/')
       .set('Accept', 'application/json')
-    expect(response.body).toEqual('N.E.D. rules 😎')
+      .expect((res) => {
+        expect(res.body).toEqual('N.E.D. rules 😎')
+      })
   })
 })
