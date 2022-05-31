@@ -16,9 +16,9 @@ export const OAUTH2: any = {
     cache: true,
     rateLimit: true,
     jwksRequestsPerMinute: 5,
-    jwksUri: "https://your-tenant.zone.auth0.com/.well-known/jwks.json"
+    jwksUri: 'https://your-tenant.zone.auth0.com/.well-known/jwks.json'
   }),
-  audience: "https://your.hosted.api",
-  issuer: "https://your-tenant.zone.auth0.com/",
+  audience: 'https://your.hosted.api',
+  issuer: 'https://your-tenant.zone.auth0.com/',
   algorithms: ['RS256']
 }

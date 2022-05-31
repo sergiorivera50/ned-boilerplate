@@ -10,7 +10,9 @@
     "dev": "NODE_ENV=development ./node_modules/.bin/ts-node-dev --watch=src/**/*.ts src/index.ts",
     "test": "NODE_ENV=testing ./node_modules/.bin/jest --config=src/configs/jest.config.ts --colors --verbose --detectOpenHandles",
     "docker:dev": "docker-compose -f docker-compose.yaml -f docker-compose.dev.yaml up",
-    "docker:test": "docker-compose -f docker-compose.yaml -f docker-compose.test.yaml up --abort-on-container-exit"
+    "docker:test": "docker-compose -f docker-compose.yaml -f docker-compose.test.yaml up --abort-on-container-exit",
+    "lint": "eslint \"**/*.{ts,tsx}\"",
+    "lint:fix": "eslint --fix --ext .js,.jsx \"**/*.{ts,tsx}\""
   },
   "repository": {
     "type": "git",
