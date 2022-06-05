@@ -2,5 +2,6 @@ version: '3'
 
 services:
   express:
+    tty: true
     build:
       context: .
