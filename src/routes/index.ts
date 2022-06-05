@@ -1,13 +1,9 @@
 import { Router } from 'express'
-import { root } from './root.route'
+import rootRoutes from './root.routes'
 
 const routes = Router()
 
-/* 
-  Add your custom routes here:
-  routes.get(myRoute)
-*/
-
-routes.get('/', root)
+routes.use('/', rootRoutes)
+// routes.use('/app', yourCustomRoutes)
 
 export default routes

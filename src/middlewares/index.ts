@@ -1,9 +1,10 @@
 import { Router } from 'express'
-import { isProd } from '../utils/misc.utils'
-import { auth } from './auth.middleware'
+import ExpressUtils from '../utils/express.utils'
+import AuthMiddleware from './auth.middleware'
 
 const middlewares = Router()
 
-if (isProd) middlewares.use(auth)  // auth.config.ts
+if (ExpressUtils.isProd) middlewares.use(AuthMiddleware.OAuth2)
+// middlewares.use(YourCustomMiddleware.method)
 
 export default middlewares

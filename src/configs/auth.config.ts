@@ -11,14 +11,16 @@
 
 import jwks from 'jwks-rsa'
 
-export const OAUTH2: any = {
-  secret: jwks.expressJwtSecret({
-    cache: true,
-    rateLimit: true,
-    jwksRequestsPerMinute: 5,
-    jwksUri: 'https://your-tenant.zone.auth0.com/.well-known/jwks.json'
-  }),
-  audience: 'https://your.hosted.api',
-  issuer: 'https://your-tenant.zone.auth0.com/',
-  algorithms: ['RS256']
+export default class AuthConfig {
+  static OAuth2: any = {
+    secret: jwks.expressJwtSecret({
+      cache: true,
+      rateLimit: true,
+      jwksRequestsPerMinute: 5,
+      jwksUri: 'https://your-tenant.zone.auth0.com/.well-known/jwks.json'
+    }),
+    audience: 'https://your.hosted.api',
+    issuer: 'https://your-tenant.zone.auth0.com/',
+    algorithms: ['RS256']
+  }
 }

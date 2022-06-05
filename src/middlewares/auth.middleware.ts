@@ -1,4 +1,6 @@
 import { expressjwt as jwt } from 'express-jwt'
-import { OAUTH2 } from '../configs/auth.config'
+import AuthConfig from '../configs/auth.config'
 
-export const auth = jwt(OAUTH2)
+export default class AuthMiddleware {
+  static OAuth2 = jwt(AuthConfig.OAuth2)
+}
