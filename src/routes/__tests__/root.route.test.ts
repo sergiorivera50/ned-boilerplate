@@ -15,7 +15,7 @@ describe('GET /', () => {
       .get('/')
       .set('Accept', 'application/json')
       .expect((res) => {
-        expect(res.body).toEqual('N.E.D. rules 😎')
+        expect(res.body).toEqual({acknowledged: 'N.E.D. rules 😎'})
       })
   })
 })
