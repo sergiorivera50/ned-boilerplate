@@ -1,7 +1,6 @@
 import { Response } from 'express'
 
 export default class ExpressUtils {
-  static API_ROUTE = '/api/v1'
   static isDev = process.env.NODE_ENV === 'development'
   static isProd = process.env.NODE_ENV === 'production'
 

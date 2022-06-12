@@ -1,10 +1,10 @@
 import app from '../app'
 import request from 'supertest'
 import { describe, it, expect} from '@jest/globals'
-import ExpressUtils from '../utils/express.utils'
+import ExpressConfig from '../configs/express.config';
 
 const endpoint = '/'
-const route = `${ExpressUtils.API_ROUTE}${endpoint}`
+const route = `${ExpressConfig.API_ROUTE}${endpoint}`
 
 describe(`GET ${route}`, () => {
   it('should return status code 200', async () => {
