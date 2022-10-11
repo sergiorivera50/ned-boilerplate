@@ -1,7 +1,7 @@
 import app from '../app'
 import request from 'supertest'
 import { describe, it, expect} from '@jest/globals'
-import ExpressConfig from '../configs/express.config';
+import ExpressConfig from '../api/configs/express.config';
 
 const endpoint = '/'
 const route = `${ExpressConfig.API_ROUTE}${endpoint}`
